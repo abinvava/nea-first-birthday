@@ -243,17 +243,17 @@ function initSections() {
    ADD TO CALENDAR
 ════════════════════════════════════════════ */
 document.getElementById('addToCalendar').addEventListener('click', () => {
-  const title    = encodeURIComponent("Baby [Daughter Name]'s 1st Birthday Party");
-  const location = encodeURIComponent('[Party Hall / Venue Name], [City], [State]');
+  const title    = encodeURIComponent("Baby Nathania's 1st Birthday Party");
+  const location = encodeURIComponent('Minety Village Hall, Hornbury Hill, Minety, Malmesbury SN16 9QH');
   const details  = encodeURIComponent(
-    "Join us to celebrate Baby [Daughter Name]'s 1st Birthday.\n" +
+    "Join us to celebrate Baby Nathania's 1st Birthday.\n" +
     'Cake cutting, dinner, and family celebration.\n' +
-    'Hosted by [Father Name] & [Mother Name].'
+    'Hosted by Abin & AKsa.'
   );
 
   // Google Calendar format: YYYYMMDDTHHmmssZ
-  const start = '20260411T113000Z'; // 5:00 PM IST = 11:30 UTC
-  const end   = '20260411T143000Z'; // ~8:00 PM IST
+  const start = '20260509T113000Z'; // 5:00 PM IST = 11:30 UTC
+  const end   = '20260509T143000Z'; // ~8:00 PM IST
 
   const gcalUrl =
     `https://calendar.google.com/calendar/render?action=TEMPLATE` +
